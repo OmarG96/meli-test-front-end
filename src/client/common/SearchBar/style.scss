@@ -1,0 +1,36 @@
+@import "../../utils/scss/variables.scss";
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  max-width: 60%;
+}
+
+.search-input {
+  flex: 1;
+  height: 32px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  font-size: 18px;
+  padding-left: 12px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  background-color: $gray-1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

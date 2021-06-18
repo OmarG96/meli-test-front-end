@@ -1,0 +1,10 @@
+@import "../../utils/scss/variables.scss";
+
+.card-container-root {
+  grid-column: 2 / span 10;
+  background-color: $white;
+  border-radius: 4px;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto 5% auto;
+}

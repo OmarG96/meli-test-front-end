@@ -1,0 +1,11 @@
+@import "../../../utils/scss/variables.scss";
+
+.layout {
+  background-color: $gray-1;
+  min-height: 100vh;
+}
+
+.header-logo {
+  height: 32px;
+  margin-right: 24px;
+}

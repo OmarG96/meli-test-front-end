@@ -1,0 +1,20 @@
+@import "../../utils/scss/variables.scss";
+
+.breadcrumb-root {
+  grid-column: 2 / span 10;
+  max-width: 920px;
+  width: 100%;
+  margin: 16px auto 0;
+}
+
+.breadcrumb-route {
+  font-size: 14px;
+  color: $gray-6;
+
+  &:not(:first-child) {
+    &::before {
+      content: "\003E";
+      margin: 0 4px;
+    }
+  }
+}

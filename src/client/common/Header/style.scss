@@ -1,0 +1,17 @@
+@import "../../utils/scss/variables.scss";
+
+header {
+  height: 52px;
+  background-color: $yellow;
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-gap: 16px;
+}
+
+.header-content {
+  grid-column: 2 / span 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
