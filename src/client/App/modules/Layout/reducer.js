@@ -18,7 +18,7 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         search: {
-          ...state.search,
+          data: null,
           loading: true,
           error: null,
         },

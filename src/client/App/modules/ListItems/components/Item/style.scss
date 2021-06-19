@@ -2,6 +2,7 @@
 
 .item-root {
   padding: 0 16px;
+  cursor: pointer;
 
   &:not(:last-child) {
     .item {
@@ -13,10 +14,6 @@
 .item {
   display: flex;
   padding: 16px 0;
-
-  &:not(:last-child) {
-    border-bottom: 1px solid $gray-1;
-  }
 }
 
 .picture {

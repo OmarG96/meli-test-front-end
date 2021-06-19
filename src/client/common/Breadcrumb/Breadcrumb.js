@@ -7,7 +7,9 @@ const Breadcrumb = ({ path = [] }) => {
   return (
     <div className="breadcrumb-root">
       {path.map((route) => (
-        <span className="breadcrumb-route">{route}</span>
+        <span key={route} className="breadcrumb-route">
+          {route}
+        </span>
       ))}
     </div>
   );
