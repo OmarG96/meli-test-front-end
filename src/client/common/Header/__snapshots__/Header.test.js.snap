@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN SearchBar WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      class="header-content"
+    >
+      <div>
+        example
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;

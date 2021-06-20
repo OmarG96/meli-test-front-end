@@ -23,6 +23,7 @@ const SearchBar = ({ onSearch = () => {} }) => {
   return (
     <form className="search-bar" onSubmit={handleSubmit}>
       <input
+        role="searchbox"
         name="search-input"
         value={item}
         onChange={handleChange}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN SearchBar WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="search-bar"
+  >
+    <input
+      class="search-input"
+      name="search-input"
+      placeholder="Nunca dejes de buscar"
+      role="searchbox"
+      value=""
+    />
+    <button
+      class="search-button"
+      type="submit"
+    >
+      <img
+        src="test-file-stub"
+      />
+    </button>
+  </form>
+</DocumentFragment>
+`;

@@ -21,10 +21,19 @@ const Layout = ({ children }) => {
     [dispatch, history]
   );
 
+  const handleClickLogo = useCallback(() => {
+    history.push("/");
+  }, [history]);
+
   return (
     <div className="layout">
       <Header>
-        <img className="header-logo" src={logo} />
+        <img
+          role="button"
+          className="header-logo"
+          src={logo}
+          onClick={handleClickLogo}
+        />
         <SearchBar onSearch={handleSearch} />
       </Header>
       {children}
