@@ -38,7 +38,10 @@ const itemsRoute = async (req, res) => {
       items,
     });
   } catch (error) {
-    res.send("ERROR");
+    console.log(error);
+    res.status(500).json({
+      msg: "Internal Server Error",
+    });
   }
 };
 
@@ -69,7 +72,16 @@ const itemDetailRoute = async (req, res) => {
       },
     });
   } catch (error) {
-    res.send("ERROR");
+    console.log(error);
+    if (error.response.status == 404) {
+      res.status(404).json({
+        msg: "resource not found",
+      });
+    } else {
+      res.status(500).json({
+        msg: "Internal Server Error",
+      });
+    }
   }
 };
 
