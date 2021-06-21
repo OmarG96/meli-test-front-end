@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN CardContainer WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card-container-root"
+  >
+    <div>
+      example
+    </div>
+  </div>
+</DocumentFragment>
+`;

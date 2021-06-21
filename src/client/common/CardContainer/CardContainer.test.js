@@ -1,14 +1,14 @@
 import React from "react";
-import Header from ".";
+import CardContainer from ".";
 import { render } from "@testing-library/react";
 
-describe("GIVEN SearchBar", () => {
+describe("GIVEN CardContainer", () => {
   describe("WHEN is rendered", () => {
     it("THEN match to snapshot", () => {
       const { asFragment } = render(
-        <Header>
+        <CardContainer>
           <div>example</div>
-        </Header>
+        </CardContainer>
       );
       expect(asFragment()).toMatchSnapshot();
     });

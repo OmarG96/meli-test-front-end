@@ -1,14 +1,14 @@
 import React from "react";
-import Header from ".";
+import GridContainer from ".";
 import { render } from "@testing-library/react";
 
-describe("GIVEN SearchBar", () => {
+describe("GIVEN GridContainer", () => {
   describe("WHEN is rendered", () => {
     it("THEN match to snapshot", () => {
       const { asFragment } = render(
-        <Header>
+        <GridContainer>
           <div>example</div>
-        </Header>
+        </GridContainer>
       );
       expect(asFragment()).toMatchSnapshot();
     });

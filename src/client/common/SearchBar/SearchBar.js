@@ -4,7 +4,7 @@ import { func } from "prop-types";
 import iconSearch from "../../assets/images/ic_Search.png";
 import "./style.scss";
 
-const SearchBar = ({ onSearch = () => {} }) => {
+const SearchBar = ({ onSearch }) => {
   const [item, setItem] = useState("");
 
   const handleSubmit = useCallback(

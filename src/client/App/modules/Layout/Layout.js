@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Header>
         <img
-          role="button"
+          role="button-logo"
           className="header-logo"
           src={logo}
           onClick={handleClickLogo}

@@ -1,15 +1,13 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
 
 import { formatMoney } from "../../../utils/methods/formatMoney";
 import { useQueryURL } from "../../../utils/hooks";
-import { getItemDetail } from "./services";
 import parseCondition from "./utils/parseCondition";
+import { getItemDetail } from "./services";
 
 import { Breadcrumb, CardContainer, GridContainer } from "../../../common";
 
-//import iconShipping from "../../../../../assets/images/ic_shipping.png";
 import "./style.scss";
 
 const ItemDetail = () => {

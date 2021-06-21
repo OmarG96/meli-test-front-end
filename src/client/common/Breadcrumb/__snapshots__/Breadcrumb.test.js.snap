@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN Breadcrumb WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="breadcrumb-root"
+  >
+    <span
+      class="breadcrumb-route"
+    >
+      example1
+    </span>
+    <span
+      class="breadcrumb-route"
+    >
+      example2
+    </span>
+    <span
+      class="breadcrumb-route"
+    >
+      example3
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`GIVEN Breadcrumb WHEN is rendered THEN match to snapshot when path is [] 1`] = `
+<DocumentFragment>
+  <div
+    class="breadcrumb-root"
+  />
+</DocumentFragment>
+`;

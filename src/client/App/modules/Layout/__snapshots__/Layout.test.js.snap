@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN Layout WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="layout"
+  >
+    <header>
+      <div
+        class="header-content"
+      >
+        <img
+          class="header-logo"
+          role="button-logo"
+          src="test-file-stub"
+        />
+        <form
+          class="search-bar"
+        >
+          <input
+            class="search-input"
+            name="search-input"
+            placeholder="Nunca dejes de buscar"
+            role="searchbox"
+            value=""
+          />
+          <button
+            class="search-button"
+            type="submit"
+          >
+            <img
+              src="test-file-stub"
+            />
+          </button>
+        </form>
+      </div>
+    </header>
+    <div>
+      Example
+    </div>
+  </div>
+</DocumentFragment>
+`;
