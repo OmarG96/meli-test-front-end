@@ -1,6 +1,8 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+
+import { useQueryURL } from "../../../utils/hooks";
+import { onFetch } from "./actions";
 
 import { CardContainer, GridContainer, Breadcrumb } from "../../../common";
 import { Item } from "./components";
@@ -8,10 +10,18 @@ import { Item } from "./components";
 import "./style.scss";
 
 const ListItems = () => {
+  const dispatch = useDispatch();
+  const query = useQueryURL();
+  const itemToSearch = query.get("search");
+
   const { data, loading, error } = useSelector(
-    ({ layout: { search } }) => search
+    ({ listItems: { search } }) => search
   );
-  const { items, categories } = data || { items: [], categories: [] };
+  const { items = [], categories = [] } = data || {};
+
+  useEffect(() => {
+    dispatch(onFetch(itemToSearch));
+  }, [itemToSearch, dispatch]);
 
   return (
     <GridContainer>

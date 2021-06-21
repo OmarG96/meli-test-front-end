@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { default as LayoutReducer } from "./modules/Layout/reducer";
+import { default as ListItemsReducer } from "./modules/ListItems/reducer";
 
 export default combineReducers({
-  layout: LayoutReducer,
+  listItems: ListItemsReducer,
 });

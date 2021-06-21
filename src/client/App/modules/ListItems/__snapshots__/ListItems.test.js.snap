@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN ListItems WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="grid-container-root"
+  >
+    <div
+      class="breadcrumb-root"
+    >
+      <span
+        class="breadcrumb-route"
+      >
+        example1
+      </span>
+      <span
+        class="breadcrumb-route"
+      >
+        example2
+      </span>
+      <span
+        class="breadcrumb-route"
+      >
+        example3
+      </span>
+    </div>
+    <div
+      class="card-container-root"
+    >
+      <div
+        class="item-root"
+        role="item"
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="picture"
+          >
+            <img
+              src="url.example.com"
+            />
+          </div>
+          <div
+            class="detail"
+          >
+            <div
+              class="header"
+            >
+              <div
+                class="price"
+              >
+                $ 123,456
+                <img
+                  class="icon-shipping"
+                  src="test-file-stub"
+                />
+              </div>
+              <div
+                class="state-name"
+              />
+            </div>
+            <div
+              class="title"
+            >
+              Title title title
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`GIVEN ListItems WHEN is rendered THEN match to snapshot when items is empty 1`] = `
+<DocumentFragment>
+  <div
+    class="grid-container-root"
+  >
+    <div
+      class="breadcrumb-root"
+    />
+  </div>
+</DocumentFragment>
+`;

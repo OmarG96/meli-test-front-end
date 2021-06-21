@@ -1,7 +1,6 @@
 import React from "react";
-import renderWithProvider from "../../../utils/tests/renderWithProvider";
 import Layout from ".";
-import { fireEvent, waitFor } from "@testing-library/react";
+import { fireEvent, render, waitFor } from "@testing-library/react";
 
 const mockPush = jest.fn();
 
@@ -12,10 +11,14 @@ jest.mock("react-router-dom", () => ({
   }),
 }));
 
+beforeEach(() => {
+  jest.resetAllMocks();
+});
+
 describe("GIVEN Layout", () => {
   describe("WHEN is rendered", () => {
     it("THEN match to snapshot", async () => {
-      const { asFragment } = renderWithProvider(
+      const { asFragment } = render(
         <Layout>
           <div>Example</div>
         </Layout>
@@ -25,7 +28,7 @@ describe("GIVEN Layout", () => {
     });
 
     it("THEN redirect to / when the logo is clicked", async () => {
-      const { getByRole } = renderWithProvider(
+      const { getByRole } = render(
         <Layout>
           <div>Example</div>
         </Layout>
@@ -34,18 +37,18 @@ describe("GIVEN Layout", () => {
       expect(mockPush).toHaveBeenCalledWith("/");
     });
 
-    it("THEN should execute onFetch and redirect to / when a search is performed", async () => {
-      const { getByRole } = renderWithProvider(
+    it("THEN should redirect to /items?search=example when a search is performed", async () => {
+      const { getByRole } = render(
         <Layout>
           <div>Example</div>
         </Layout>
       );
       const searchbox = getByRole("searchbox");
-      await waitFor(() => {
-        fireEvent.change(searchbox, { target: { value: "example" } });
-        fireEvent.submit(searchbox);
-      });
-      expect(mockPush).toHaveBeenCalledWith("/");
+      await waitFor(() =>
+        fireEvent.change(searchbox, { target: { value: "example" } })
+      );
+      fireEvent.submit(searchbox);
+      expect(mockPush).toHaveBeenCalledWith("/items?search=example");
     });
   });
 });

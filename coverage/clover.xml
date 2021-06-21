@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1624234709736" clover="3.2.0">
-  <project timestamp="1624234709737" name="All files">
-    <metrics statements="89" coveredstatements="88" conditionals="15" coveredconditionals="14" methods="29" coveredmethods="29" elements="133" coveredelements="131" complexity="0" loc="89" ncloc="89" packages="14" files="29" classes="29">
+<coverage generated="1624311133882" clover="3.2.0">
+  <project timestamp="1624311133882" name="All files">
+    <metrics statements="103" coveredstatements="102" conditionals="23" coveredconditionals="20" methods="35" coveredmethods="34" elements="161" coveredelements="156" complexity="0" loc="103" ncloc="103" packages="17" files="34" classes="34">
       <package name="App">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <file name="combineReducer.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\combineReducer.js">
@@ -13,27 +13,26 @@
         </file>
       </package>
       <package name="App.modules.ItemDetail">
-        <metrics statements="21" coveredstatements="20" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="5"/>
+        <metrics statements="20" coveredstatements="19" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="5"/>
         <file name="ItemDetail.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ItemDetail\ItemDetail.js">
-          <metrics statements="18" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+          <metrics statements="17" coveredstatements="16" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
           <line num="13" count="1" type="stmt"/>
           <line num="14" count="4" type="stmt"/>
           <line num="15" count="4" type="stmt"/>
           <line num="17" count="4" type="stmt"/>
-          <line num="18" count="4" type="stmt"/>
-          <line num="20" count="5" type="stmt"/>
-          <line num="21" count="4" type="cond" truecount="1" falsecount="1"/>
-          <line num="23" count="4" type="stmt"/>
+          <line num="19" count="5" type="stmt"/>
+          <line num="20" count="4" type="cond" truecount="1" falsecount="1"/>
+          <line num="22" count="4" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
           <line num="24" count="1" type="stmt"/>
           <line num="25" count="1" type="stmt"/>
           <line num="26" count="1" type="stmt"/>
-          <line num="27" count="1" type="stmt"/>
-          <line num="29" count="0" type="stmt"/>
-          <line num="31" count="1" type="stmt"/>
-          <line num="34" count="4" type="stmt"/>
-          <line num="35" count="1" type="stmt"/>
-          <line num="38" count="4" type="stmt"/>
-          <line num="72" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="4" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="37" count="4" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
         </file>
         <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ItemDetail\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -54,58 +53,97 @@
         </file>
       </package>
       <package name="App.modules.Layout">
-        <metrics statements="34" coveredstatements="34" conditionals="5" coveredconditionals="5" methods="10" coveredmethods="10"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <file name="Layout.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\Layout.js">
-          <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="12" count="1" type="stmt"/>
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
           <line num="13" count="3" type="stmt"/>
-          <line num="14" count="3" type="stmt"/>
-          <line num="16" count="3" type="stmt"/>
-          <line num="18" count="1" type="stmt"/>
-          <line num="19" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="20" count="3" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
           <line num="24" count="3" type="stmt"/>
-          <line num="25" count="1" type="stmt"/>
-          <line num="28" count="3" type="stmt"/>
-          <line num="44" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
         </file>
-        <file name="actionTypes.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\actionTypes.js">
+        <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="App.modules.ListItems">
+        <metrics statements="35" coveredstatements="35" conditionals="11" coveredconditionals="11" methods="11" coveredmethods="11"/>
+        <file name="ListItems.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\ListItems.js">
+          <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+          <line num="20" count="2" type="cond" truecount="4" falsecount="0"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
+          <line num="26" count="2" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+        </file>
+        <file name="actionTypes.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\actionTypes.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="4" type="stmt"/>
           <line num="2" count="4" type="stmt"/>
           <line num="3" count="4" type="stmt"/>
         </file>
-        <file name="actions.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\actions.js">
+        <file name="actions.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\actions.js">
           <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-          <line num="8" count="4" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
           <line num="12" count="2" type="stmt"/>
           <line num="17" count="2" type="stmt"/>
-          <line num="22" count="3" type="stmt"/>
-          <line num="23" count="3" type="stmt"/>
-          <line num="25" count="3" type="stmt"/>
-          <line num="26" count="3" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+          <line num="26" count="2" type="stmt"/>
           <line num="27" count="1" type="stmt"/>
           <line num="29" count="1" type="stmt"/>
         </file>
-        <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\index.js">
+        <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         </file>
-        <file name="reducer.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\reducer.js">
+        <file name="reducer.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\reducer.js">
           <metrics statements="9" coveredstatements="9" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
           <line num="7" count="3" type="stmt"/>
           <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
-          <line num="16" count="12" type="cond" truecount="4" falsecount="0"/>
+          <line num="16" count="13" type="cond" truecount="4" falsecount="0"/>
           <line num="18" count="2" type="stmt"/>
-          <line num="28" count="2" type="stmt"/>
-          <line num="29" count="2" type="stmt"/>
+          <line num="28" count="3" type="stmt"/>
+          <line num="29" count="3" type="stmt"/>
           <line num="39" count="1" type="stmt"/>
           <line num="40" count="1" type="stmt"/>
           <line num="50" count="7" type="stmt"/>
         </file>
-        <file name="services.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\Layout\services.js">
+        <file name="services.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\services.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="3" count="3" type="stmt"/>
-          <line num="4" count="3" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
           <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="App.modules.ListItems.components">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\components\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="App.modules.ListItems.components.Item">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <file name="Item.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\components\Item\Item.js">
+          <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="10" count="2" type="stmt"/>
+          <line num="11" count="4" type="stmt"/>
+          <line num="12" count="4" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="16" count="4" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
+        </file>
+        <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\App\modules\ListItems\components\Item\index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         </file>
       </package>
       <package name="common">
@@ -118,10 +156,10 @@
         <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <file name="Breadcrumb.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\Breadcrumb\Breadcrumb.js">
           <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
-          <line num="6" count="3" type="cond" truecount="1" falsecount="0"/>
-          <line num="7" count="6" type="stmt"/>
-          <line num="10" count="15" type="stmt"/>
-          <line num="18" count="3" type="stmt"/>
+          <line num="6" count="4" type="cond" truecount="1" falsecount="0"/>
+          <line num="7" count="8" type="stmt"/>
+          <line num="10" count="18" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
         </file>
         <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\Breadcrumb\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -131,9 +169,9 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="CardContainer.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\CardContainer\CardContainer.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="6" count="3" type="stmt"/>
-          <line num="7" count="2" type="stmt"/>
-          <line num="10" count="3" type="stmt"/>
+          <line num="6" count="4" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="10" count="4" type="stmt"/>
         </file>
         <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\CardContainer\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -143,9 +181,9 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="GridContainer.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\GridContainer\GridContainer.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="6" count="3" type="stmt"/>
-          <line num="7" count="5" type="stmt"/>
-          <line num="10" count="3" type="stmt"/>
+          <line num="6" count="4" type="stmt"/>
+          <line num="7" count="7" type="stmt"/>
+          <line num="10" count="4" type="stmt"/>
         </file>
         <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\GridContainer\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -155,9 +193,9 @@
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="Header.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\Header\Header.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="6" count="3" type="stmt"/>
+          <line num="6" count="4" type="stmt"/>
           <line num="7" count="4" type="stmt"/>
-          <line num="14" count="3" type="stmt"/>
+          <line num="14" count="4" type="stmt"/>
         </file>
         <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\Header\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -167,7 +205,7 @@
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <file name="SearchBar.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\SearchBar\SearchBar.js">
           <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="7" count="3" type="stmt"/>
+          <line num="7" count="4" type="stmt"/>
           <line num="8" count="7" type="stmt"/>
           <line num="10" count="7" type="stmt"/>
           <line num="12" count="2" type="stmt"/>
@@ -176,7 +214,7 @@
           <line num="19" count="2" type="stmt"/>
           <line num="20" count="2" type="stmt"/>
           <line num="23" count="7" type="stmt"/>
-          <line num="40" count="3" type="stmt"/>
+          <line num="40" count="4" type="stmt"/>
         </file>
         <file name="index.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\common\SearchBar\index.js">
           <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -189,7 +227,7 @@
         </file>
         <file name="useQueryURL.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\utils\hooks\useQueryURL.js">
           <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="4" count="4" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
         </file>
       </package>
       <package name="utils.http">
@@ -206,18 +244,18 @@
         <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <file name="formatMoney.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\utils\methods\formatMoney.js">
           <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-          <line num="2" count="3" type="stmt"/>
+          <line num="2" count="7" type="stmt"/>
         </file>
       </package>
       <package name="utils.tests">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <file name="renderWithProvider.js" path="C:\Users\lucio\Documents\Programación\MELI\meli-test-front-end\src\client\utils\tests\renderWithProvider.js">
-          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+          <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
           <line num="6" count="2" type="stmt"/>
-          <line num="10" count="4" type="stmt"/>
-          <line num="11" count="4" type="stmt"/>
-          <line num="12" count="4" type="stmt"/>
-          <line num="14" count="4" type="stmt"/>
+          <line num="10" count="3" type="stmt"/>
+          <line num="11" count="3" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
         </file>
       </package>
     </metrics>

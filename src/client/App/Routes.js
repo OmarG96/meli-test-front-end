@@ -6,10 +6,10 @@ import { ListItems, ItemDetail } from "./modules";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/detalle">
+      <Route exact path="/items/:id">
         <ItemDetail />
       </Route>
-      <Route exact path="/">
+      <Route exact path="/items">
         <ListItems />
       </Route>
       <Route path="*">

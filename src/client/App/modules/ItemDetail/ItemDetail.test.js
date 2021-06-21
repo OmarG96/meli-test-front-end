@@ -2,8 +2,8 @@ import React from "react";
 import renderWithProvider from "../../../utils/tests/renderWithProvider";
 import ItemDetail from ".";
 import { getItemDetail } from "./services";
-import { screen, waitFor } from "@testing-library/react";
-import { SEARCH_FETCH_SUCCESS } from "../Layout/actionTypes";
+import { screen } from "@testing-library/react";
+import { SEARCH_FETCH_SUCCESS } from "../ListItems/actionTypes";
 
 jest.mock("./services", () => ({
   getItemDetail: jest.fn(),
@@ -11,8 +11,8 @@ jest.mock("./services", () => ({
 
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
-  useLocation: () => ({
-    pathname: "http://localhost:3000/detalle?id=EXAMPLE123",
+  useParams: () => ({
+    id: "EXAMPLE123",
   }),
 }));
 

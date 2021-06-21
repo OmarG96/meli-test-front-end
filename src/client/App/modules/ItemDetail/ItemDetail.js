@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
+import { useParams } from "react-router-dom";
 import { formatMoney } from "../../../utils/methods/formatMoney";
-import { useQueryURL } from "../../../utils/hooks";
 import parseCondition from "./utils/parseCondition";
 import { getItemDetail } from "./services";
 
@@ -14,10 +14,9 @@ const ItemDetail = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [itemData, setItemData] = useState(null);
 
-  const query = useQueryURL();
-  const idItem = query.get("id");
+  let { id: idItem } = useParams();
 
-  const { data } = useSelector(({ layout: { search } }) => search);
+  const { data } = useSelector(({ listItems: { search } }) => search);
   const { categories } = data || { categories: [] };
 
   const fetchItemDetail = useCallback(async () => {

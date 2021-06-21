@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN Item WHEN is rendered THEN match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="item-root"
+    role="item"
+  >
+    <div
+      class="item"
+    >
+      <div
+        class="picture"
+      >
+        <img
+          src="url.example.com"
+        />
+      </div>
+      <div
+        class="detail"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="price"
+          >
+            $ 123,456
+            <img
+              class="icon-shipping"
+              src="test-file-stub"
+            />
+          </div>
+          <div
+            class="state-name"
+          />
+        </div>
+        <div
+          class="title"
+        >
+          Title title title
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`GIVEN Item WHEN is rendered THEN match to snapshot when free shipping is false 1`] = `
+<DocumentFragment>
+  <div
+    class="item-root"
+    role="item"
+  >
+    <div
+      class="item"
+    >
+      <div
+        class="picture"
+      >
+        <img
+          src="url.example.com"
+        />
+      </div>
+      <div
+        class="detail"
+      >
+        <div
+          class="header"
+        >
+          <div
+            class="price"
+          >
+            $ 123,456
+          </div>
+          <div
+            class="state-name"
+          />
+        </div>
+        <div
+          class="title"
+        >
+          Title title title
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
